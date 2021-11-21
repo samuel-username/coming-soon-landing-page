@@ -95,7 +95,6 @@ form * {
     display: grid;
     align-content: center;
     grid-template-columns: auto minmax(9.5em, 30em) auto;
-    font-size: 1.4rem;
     background-image: url("../images/bg-pattern-desktop.svg");
     background-size: 100%;
   }
