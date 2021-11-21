@@ -9,6 +9,7 @@ form.addEventListener("submit", e => {
   const errorText = validateEmail(email);
   if (errorText !== "valid") {
     errorOutput.innerText = errorText;
+    form.classList.add("formy")
   } else {
     e.target.submit();
   }
@@ -16,6 +17,7 @@ form.addEventListener("submit", e => {
 
 input.addEventListener("input", e => {
   errorOutput.innerText = "";
+  form.classList.remove("formy")
 })
 
 function validateEmail(email) {

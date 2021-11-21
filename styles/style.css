@@ -39,10 +39,11 @@ body {
   font-size: 2.8em;
   letter-spacing: .4rem;
   font-weight: 600;
+  color: var(--dark-grayish-red);
 }
 
 :is(.intro-t, .we-re, #email:placeholder) {
-  color: var(--desaturated-red);
+  color: var(--desaturated-red)!important;
 }
 
 .we-re {
@@ -55,7 +56,10 @@ form * {
 
 #email {
   border-color: var(--desaturated-red);
-  background: var(--pry-gradient);
+  /*background: var(--pry-gradient);*/
+  background: transparent;
+  box-shadow: none;
+  font-size: .9rem;
 }
 
 .errMsg {
@@ -67,14 +71,25 @@ form * {
 }
 
 .errImg {
-  width: .5em;
+  width: 1.5em;
   aspect-ratio: 1 / 1;
-  
+  right: 25%;
+  transform: translateY(60%);
+  visibility: hidden;
+  transition: inherit;
 }
 
 .submit:hover {
-  box-shadow: 0 .2em 1em var(--desaturated-red)!important;
+  box-shadow: 0 .2em 1em var(--desaturated-red);
   transform: translateX(-50%) scale(1.05)!important;
+}
+
+.formy .errImg {
+  visibility: visible;
+}
+
+.formy #email {
+  border: 2px solid var(--soft-red);
 }
 
 @media (min-width: 768px) {
