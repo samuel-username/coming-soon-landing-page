@@ -115,7 +115,7 @@ form * {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   main p {
     font-size: 1.6em;
   }
