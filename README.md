@@ -51,7 +51,7 @@ I learnt some basic form validation tricks used in vanilla JS as well as other f
 
 - [Freecodecamp article on form validatiom](https://www.freecodecamp.org/news/build-and-validate-beautiful-forms-with-vanilla-html-css-js/)
 - [Bootstrap 5 form validation](https://getbootstrap.com/docs/5.0/forms/validation/)
-- 
+
 ## Author
 
 - Frontend Mentor - [@samuel-username](https://www.frontendmentor.io/profile/samuel-username)
