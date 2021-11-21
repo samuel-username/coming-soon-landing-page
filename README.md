@@ -32,8 +32,6 @@ Users should be able to:
 
 - Solution URL: [here](https://samuel-username.github.io/coming-soon-landing-page/)
 - Live Site URL: [here](https://samuel-username.github.io/coming-soon-landing-page/)
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
-## My process
 
 ### Built with
 
